@@ -41,7 +41,7 @@ function begin(){
 	var parseDate = d3.time.format("%x").parse;
 
 	var x = d3.time.scale()
-		.range([0, width]);
+		.range([0, width-20]);
 
 	var y = d3.scale.linear()
 		.range([height, 0]);
